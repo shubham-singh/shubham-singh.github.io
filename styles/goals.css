@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.card {
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+    border: 2px solid pink;
+    border-radius: 2rem;
+    max-width: 600px;
+}
+
+.image {
+    border-radius: 50%;
+    margin: 1rem auto;
+    width: 150px;
+    height: 150px;
+    max-height: 100%;
+    max-width: 100%;
+    grid-column: 1/2;
+    
+}
+
+.name {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.goal {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
