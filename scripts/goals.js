@@ -17,6 +17,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ];
 
+    let today = Date.now();
+    let last = new Date('2021-12-31T23:59:59');
+    let difference = last - today;
+    let days = parseInt(difference / (1000 * 3600 * 24));
+
+    const daysLeft = document.createElement('h2');
+    daysLeft.innerHTML = days + " days left"
+    document.body.appendChild(daysLeft);
+
     for(let i = 0, l = people.length; i < l; i++)
     {
         const card = document.createElement('div');

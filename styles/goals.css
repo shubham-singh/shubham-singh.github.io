@@ -1,6 +1,14 @@
+:root {
+    --color: #1DA1F2;
+}
+
 body {
     text-align: center;
     margin: 0;
+}
+
+h1 {
+    color: var(--color);
 }
 
 .card {
@@ -9,7 +17,7 @@ body {
     padding: 2rem;
     margin: 2rem auto;
     text-align: center;
-    border: 2px solid pink;
+    border: 2px solid var(--color);
     border-radius: 2rem;
     max-width: 600px;
 }
