@@ -20,6 +20,7 @@ h1 {
     border: 2px solid var(--color);
     border-radius: 2rem;
     max-width: 600px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.3);
 }
 
 .image {
