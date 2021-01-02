@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 :root {
     --color: #1DA1F2;
 }
@@ -8,7 +8,6 @@ body {
     font-family: 'Kalam', cursive;
     margin: 0;
     background-color: #F3F4F6;
-    /* background-color: black; */
 }
 
 .center {
@@ -16,7 +15,9 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    padding: 1rem;
+    font-family: 'Redressed', cursive;
     color: var(--color);
 }
 
