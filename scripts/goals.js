@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: "Shubham Singh",
             goal: '250,000',
-            img: 'https://pbs.twimg.com/profile_images/1135970238963494913/BK25dZbH_400x400.jpg'
+            img: 'https://pbs.twimg.com/profile_images/1346432398955741186/vghJ7OFG_400x400.jpg'
         },
         {
             name: "Sushant Singh",
