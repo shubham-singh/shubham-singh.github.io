@@ -19,5 +19,7 @@
 
 ### Projects 🙌
 [Dation CSS](https://dation.netlify.app) - An open source custom CSS library that I built for my own use which has various easy to use elements and many utility classes.
+
 [Books | Learn Finance](https://books.learnfinance.fun) - E-commerce app built using ReactJS and Dation CSS to recommend books to people who are looking to start their personal finance journey.
+
 [Videos | Learn Finance](https://videos.learnfinance.fun) - Video library app built using ReactJS and Dation CSS.
