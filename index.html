@@ -24,16 +24,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            color: white
         }
 
         .item:nth-child(1) {
-            background: linear-gradient(to right, #2c3e50, #3498db);
+            background: radial-gradient(circle, #0367ae, #d4dfed);
         }
 
         .item:nth-child(2) {
-            background: linear-gradient(to right, #114357, #F29492);
+            background: radial-gradient(circle, #520351, #d4dfed);
         }
 
         a {
@@ -52,12 +50,18 @@
             left: 0;
             background-color: white;
             transform-origin: bottom right;
-            transition: transform 0.25s ease-out;
+            transition: transform 0.20s ease-out;
         }
 
         a:hover::after {
             transform: scaleX(1);
             transform-origin: bottom left;
+        }
+
+        h1 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 420;
+            color: white
         }
     </style>
 </head>
